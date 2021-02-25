@@ -1,1 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.banner-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+#container{
+  position: relative;
+}
+
+.menu-box{
+  border: 1px solid black;
+  background-color: #c9c7bf;
+}
+
+.menu-head{
+  width: 150px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 0px;
+  float: right;
+  font-size: 25px;
+}
+
+#title1{
+  background-color: #fcba03
+}
+
+#title2{
+  background-color: #0de3ff
+}
+
+#title3{
+  background-color: #db2ef2
+}
+
+.menu-text{
+  margin-top: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 992px){
+  .col-lg-4{
+    width:31%
+  }
+
+  #vegetarian{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+  }
+
+  #vegan{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+
+  #halal{
+    position: absolute;
+    top: 0px;
+    right: 34vw;
+  }
+}
+
+@media (min-width: 768px) AND (max-width:991px){
+  .col-md-6{
+    width:47%;
+  }
+  .menu-box{
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  #halal{
+    width:96%;
+  }
+
+}
+
+@media (min-width:0px) AND (max-width: 767px){
+  .col-sm-12{
+    width:95%;
+  }
+
+  .menu-box{
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+}
 
